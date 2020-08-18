@@ -4,6 +4,7 @@
  * 
  * The arm follows the position of the mouse by
  * calculating the angles with atan2(). 
+ ********************************************************************
  */
 
 int numSegments = 10;
