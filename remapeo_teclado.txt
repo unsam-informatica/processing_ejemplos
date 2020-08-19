@@ -1,0 +1,6 @@
+# remapeo de teclado para simil macos
+man xkeyboard-config
+/usr/bin/setxkbmap -option "ctrl:swap_lalt_lctl_lwin"
+
+# deshabilitar beep sistema
+xset b off
