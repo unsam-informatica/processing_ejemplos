@@ -1,4 +1,3 @@
 # Repositorio de códigos
-asdasd
-asd
-asdaadasd
+Listado de sketchs por clase y/o tema a tratar.
+Ejemplos básicos, pruebas, recursos.
