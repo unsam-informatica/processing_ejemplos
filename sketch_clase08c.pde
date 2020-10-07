@@ -62,7 +62,7 @@ void draw() {
     float factorEscala=0.5;
     float logoAncho=logo.width*factorEscala;
     float logoAlto=logo.height*factorEscala;
-    image(logo, centroX-logoAncho*0.5, (centroY*0.5)-logoAlto*0.5, logoAncho, logoAlto);
+    image(logo, centroX-logoAncho*0.5, centroY*0.5-logoAlto*0.5, logoAncho, logoAlto);
   }
   
   // imagen en movimiento
