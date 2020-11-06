@@ -27,11 +27,6 @@ void draw(){
     line( i, 50  - out.left.get(i)*50,  i+1, 50  - out.left.get(i+1)*50 );
     line( i, 150 - out.right.get(i)*50, i+1, 150 - out.right.get(i+1)*50 );
   }
-  stroke( 128, 0, 0 );
-  strokeWeight(4);
-  for( int i = 0; i < width-1; ++i ){
-    point( i, height/2 - (height*0.49) * wave.getWaveform().value( (float)i / width ) );
-  }
 }
 
 void mouseMoved(){
